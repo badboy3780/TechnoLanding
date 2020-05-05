@@ -1,0 +1,227 @@
+body{
+  width: 100%;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../fonts/Montserrat-Regular.woff') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../fonts/Montserrat-Regular.woff') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff')
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header{
+    width: 100%;
+    background-color: #454F57;
+    height: 135px;
+}
+
+.container{
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.telephones-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.container__phone-card:nth-child(2n){
+    margin-left: 24px;
+}
+
+.logo{
+    margin-right: 47px;
+    cursor: pointer;
+}
+
+.phone-card a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140.4%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.phone-card img{
+    margin-top: 16px;
+}
+
+.work-time{
+    margin-left: 19px;
+    display: flex;
+    flex-direction: column;
+}
+
+.time-container{
+    display: flex;
+    margin-top: 41px;
+}
+
+.header-time{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.4%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.header-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140.4%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.time-container img{
+    margin-left: 61px;
+}
+
+.header-button{
+    margin-left: 40px;
+    cursor: pointer;
+    width: 271px;
+    height: 39px;
+    background-color: white;
+    border-radius: 65px;
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140.4%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 20px;
+}
+
+section{
+    width: 100%;
+    height: 619px;
+    background-image: url(..//images/background.png);
+    margin-bottom: 85px;
+}
+
+.container-feedback{
+    margin: 0px auto;
+    width: 1280px;
+    display: flex;
+}
+
+.container-feedback__text h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 140.4%;
+    color: #FFFFFF;
+
+}
+
+.container-feedback__text p{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 170%;
+    color: #FFFFFF;
+    margin-top: 28px;
+    
+}
+
+.container-feedback__text{
+    margin-top: 201px;    
+    width: 651px;
+}
+
+.feedback{
+    margin-top: 106px;
+    background-color: red;
+    margin-left: 148px;
+    width: 402px;
+    height: 422px;
+    background: #E31507;
+    border-radius: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 46px;
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+form input{
+    width: 261px;
+    height: 59px;
+    border-radius: 120px;
+    border: 1px solid white;
+    background-color: #E31507;
+    padding-left: 31px;
+    margin-bottom: 26px;
+}
+
+
+input[type="text"]::-webkit-input-placeholder { color: white; }
+input[type="text"]:-ms-input-placeholder { color: white; }
+input[type="text"]::-ms-input-placeholder { color: white; }
+input[type="text"]::placeholder { color: white; } 
+
+
+input[type="number"]::-webkit-input-placeholder { color: white; }
+input[type="number"]:-ms-input-placeholder { color: white; }
+input[type="number"]::-ms-input-placeholder { color: white; }
+input[type="number"]::placeholder { color: white; } 
+
+
+form p{
+    margin-bottom: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.feedback-button{
+    width: 294px;
+    height: 59px;
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 130px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 350.4%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
