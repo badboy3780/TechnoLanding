@@ -37,13 +37,26 @@ header{
     justify-content: space-around;
     font-size: 1.2rem;
 }
+.footer-container{
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    height: 135px;
+    align-items: center;  
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
 
 .telephones-info{
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
 }
-
+.footer-telephones-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;   
+}
 .container__phone-card:nth-child(2n){
     margin-left: 24px;
 }
@@ -81,6 +94,9 @@ header{
 }
 
 .time-container{
+    display: flex;
+}
+.footer-time-container{
     display: flex;
 }
 .time-container img{
@@ -133,7 +149,7 @@ section{
     width: 100%;
     height: 620px;
     background-image: url(..//images/background.png);
-    margin-bottom: 85px;
+    /* margin-bottom: 85px; */
 }
 
 .container-feedback{
@@ -143,8 +159,17 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
 
+}
+.container-feedback-second{
+    margin: 0px auto;
+    width: 1280px;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
 .container-feedback__text h1{
     font-family: 'Montserrat';
     font-style: normal;
@@ -283,6 +308,37 @@ form p{
     width: 95px;
     height: 100px;
 }
+
+footer{
+    width: 100%;
+    background-color: #454F57;
+    height: 135px;
+}
+
+.footer-container{
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    height: 135px;
+    align-items: center;  
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+.created-by{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    color: white;
+    /* font-size: 1.1rem; */
+    font-family: 'Montserrat';
+    align-items: center;
+}
+.created-by img{
+    width: 32px;
+    height: 19px;
+    margin-left: 15px;
+}
+
 @media(min-width: 1440px){
     .advantages-list{
         width: 1280px;
@@ -296,6 +352,15 @@ form p{
         height: 135px;
         align-items: center;  
         font-size: .9rem;
+    }
+    .footer-container{
+        width: 1000px;
+        margin: 0px auto;
+        display: flex;
+        height: 135px;
+        align-items: center;  
+        justify-content: space-around;
+        font-size: 1.2rem;
     }
     .header-button {
         cursor: pointer;
@@ -324,6 +389,15 @@ form p{
         align-items: center;
         justify-content: space-around;
     }
+    .container-feedback-second{
+        margin: 0px auto;
+        width: 1000px;
+        height: 620px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
     .container-feedback__text h1 {
         font-family: 'Montserrat';
         font-style: normal;
@@ -331,6 +405,15 @@ form p{
         font-size: 2.5rem;
         line-height: 140.4%;
         color: #FFFFFF;
+    }
+    .footer-container{
+        width: 1000px;
+        margin: 0px auto;
+        display: flex;
+        height: 135px;
+        align-items: center;  
+        justify-content: space-around;
+        font-size: 1.2rem;
     }
 }
 @media(max-width: 1023px){
@@ -341,6 +424,15 @@ form p{
         height: 135px;
         align-items: center;  
         font-size: .8rem;
+    }
+    .footer-container{
+        width: 760px;
+        margin: 0px auto;
+        display: flex;
+        height: 135px;
+        align-items: center;  
+        justify-content: space-around;
+        font-size: 1rem;
     }
     .header-button {
         cursor: pointer;
@@ -361,6 +453,9 @@ form p{
     .time-container{
         display: none;
     }
+    .footer-time-container{
+        display: flex;
+    }
     .work-time{
         margin-left: 12px;
     }
@@ -379,6 +474,15 @@ form p{
         align-items: center;
         justify-content: space-around;
     }
+    .container-feedback-second{
+        margin: 0px auto;
+        width: 760px;
+        height: 620px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
     .container-feedback__text{
         width: 45%;
     }
@@ -390,8 +494,17 @@ form p{
         line-height: 140.4%;
         color: #FFFFFF;
     }
+    .footer-container{
+        width: 760px;
+        margin: 0px auto;
+        display: flex;
+        height: 135px;
+        align-items: center;  
+        justify-content: space-around;
+        font-size: 1rem;
+    }
 }
-    @media(max-width: 1024px){
+@media(max-width: 1024px){
 .advantages-list{
     width: 80%;
     margin: 0 auto;
@@ -403,7 +516,7 @@ form p{
 
 }
 }
-@media(max-width: 768px){
+@media(max-width: 767px){
     .header-container{
         width: 90%;
         margin: 0px auto;
@@ -446,7 +559,7 @@ form p{
         width: 100%;
         height: 820px;
         background-image: url(..//images/background.png);
-        margin-bottom: 85px;
+        /* margin-bottom: 85px; */
     }
     .container-feedback{
         margin: 0px auto;
@@ -455,6 +568,15 @@ form p{
         display: flex;
         align-items: center;
         justify-content: space-around;
+    }
+    .container-feedback-second{
+        margin: 0px auto;
+        width: 420px;
+        height: 820px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
     }
     .container-feedback{
         display: flex;
@@ -490,6 +612,18 @@ form p{
         min-height: 250px;
         min-width: 230px;
     }
+    .footer-container{
+        width: 100%;
+        margin: 0px auto;
+        display: flex;
+        height: 135px;
+        align-items: center;  
+        justify-content: space-around;
+        font-size: .8rem;
+    }
+    .created-by{
+        display: none;
+    }
     }
 @media(max-width: 550px){
     .advantages-list{
@@ -502,6 +636,12 @@ form p{
             grid-gap: 1.5em;
     
     }
+    .footer-container{
+        flex-direction: column;
+    }
+    footer{
+        height: 150px;
+    }
 }
 @media(max-width: 425px){
     .header-container{
@@ -512,6 +652,15 @@ form p{
         align-items: center;  
         font-size: .8rem;
         justify-content: space-between;
+    }
+    .footer-container{
+        width: 95%;
+        margin: 0px auto;
+        display: flex;
+        height: 135px;
+        align-items: center;  
+        justify-content: space-around;
+        font-size: 1.2rem;
     }
     .logo{
         width: 100%;
@@ -535,6 +684,9 @@ form p{
     .telephones-info{
         display: none;
     }
+    .footer-telephones-info{
+
+    }
     .time-container{
         display: none;
     }
@@ -542,7 +694,7 @@ form p{
         width: 100%;
         height: 820px;
         background-image: url(..//images/background.png);
-        margin-bottom: 25px;
+        /* margin-bottom: 25px; */
     }
     .container-feedback{
         margin: 0px auto;
@@ -551,6 +703,15 @@ form p{
         display: flex;
         align-items: center;
         justify-content: space-around;
+    }
+    .container-feedback-second{
+        margin: 0px auto;
+        width: 100%;
+        height: 820px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
     }
     .container-feedback{
         display: flex;
@@ -579,5 +740,14 @@ form p{
     }
     .feedback-button{
         font-size: .8rem;
+    }
+    .footer-container{
+        width: 95%;
+        margin: 0px auto;
+        display: flex;
+        height: 140px;
+        align-items: center;  
+        justify-content: space-around;
+        font-size: .69rem;
     }
 }
